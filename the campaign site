@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Campaign</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #fff;
+      color: #111;
+      line-height: 1.6;
+    }
+    header {
+      background: #f4f4f4;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      flex: 1 1 280px;
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .value-box {
+      background: #f0f0ff;
+      padding: 30px;
+      border-left: 5px solid #4a4aff;
+      margin: 40px 0;
+    }
+    footer {
+      background: #f4f4f4;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    footer p {
+      margin: 5px 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>THE CAMPAIGN</h1>
+    <p>Creating a [Successful] Campaign Is Part Art, Part Science, All Magic</p>
+  </header>
+
+  <section>
+    <h2>About the Show</h2>
+    <p>The Campaign is a unique unscripted competition series combining startup acceleration, content creation, and influencer marketing. It supports early-stage minority startups by pairing them with content creators to develop viral campaigns and gain digital traction.</p>
+  </section>
+
+  <section>
+    <h2>The Problem</h2>
+    <div class="cards">
+      <div class="card">Brands struggle with influencer integration—ROI, pricing, and creative control.</div>
+      <div class="card">Black creators are underpaid despite producing high-performing content.</div>
+      <div class="card">Minority founders lack access to early users and creative marketing tools.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>The Solution</h2>
+    <p>Startups and creators collaborate to build viral campaigns. Startups gain visibility and funding; creators gain equity and career growth—everyone wins.</p>
+  </section>
+
+  <section>
+    <h2>Value Proposition</h2>
+    <div class="value-box">
+      The Campaign empowers minority-owned startups and underrepresented creators to co-create compelling content for digital-first audiences, amplifying authentic voices in the creator economy.
+    </div>
+  </section>
+
+  <section>
+    <h2>Market Opportunity</h2>
+    <ul>
+      <li>Creator economy projected to reach $480B by 2027</li>
+      <li>Authenticity and diversity are driving brand engagement</li>
+      <li>Creators are launching top-selling brands (Feastables, Prime, Huda Beauty)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Growth Strategy</h2>
+    <ol>
+      <li>Year 1: Launch pilot with 4 startups</li>
+      <li>Year 2–3: Scale, improve production, add brand partners</li>
+      <li>Year 4+: License format, launch spinoffs, attract distributors</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Financial Outlook</h2>
+    <p>Projected revenue: Up to $15M by Year 6 via licensing, partnerships, and branded spinoffs.</p>
+    <p>Inspired by the $80M exit of Hot Ones.</p>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+    <p>Dope Original Co. is a culturally driven media company creating immersive, cross-platform content. Our flagship series, Bodega Talks, amassed over 60M views. We’re committed to storytelling that elevates culture, equity, and Gen Z voices.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2018 Dope Original Co. | All rights reserved.</p>
+    <p>Contact: daniel@dopeoriginal.co</p>
+  </footer>
+</body>
+</html>
